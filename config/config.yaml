@@ -1,0 +1,18 @@
+aws:
+  s3_bucket: "autox-financial-data"
+  region: "us-east-1"
+
+redshift:
+  host: "your-redshift-cluster.amazonaws.com"
+  dbname: "financialdb"
+  user: "awsuser"
+  password: "yourpassword"
+  port: 5439
+
+snowflake:
+  user: "sf_user"
+  password: "sf_password"
+  account: "sf_account"
+  warehouse: "COMPUTE_WH"
+  database: "FINANCE_DB"
+  schema: "PUBLIC"
